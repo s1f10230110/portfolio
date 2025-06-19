@@ -1,0 +1,69 @@
+.top {
+  position: relative;
+  height: 100vh;
+  background-color: #9EC2C2;
+}
+
+.top h1{
+  position: absolute;
+  top: 40%;
+  font-size: 80px;
+  color: #F8F4F2;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about_me h1, .about_me p{
+  color: #5D4E72;
+}
+
+.skill h1, .skill p{
+  color: #5D4E72;
+}
+
+.works h1, .works a{
+  text-decoration: none;
+  color: #5D4E72;
+}
+
+.site {
+  font-size: larger;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.3s ease;
+}
+
+a:hover .img-wrapper img {
+  transform: scale(1.05);
+}
+
+
+@media (min-width: 768px) {
+  img {
+    height: 18vw;
+  }
+}
