@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.querySelector('.hamburger-overlay');
   const nav = document.querySelector('.nav-overlay');
-  const links = nav.querySelectorAll('a'); // ★ 追加：メニュー内リンクを取得
+  const links = nav.querySelectorAll('a'); 
 
   // ハンバーガーボタンクリック
   hamburger.addEventListener('click', () => {

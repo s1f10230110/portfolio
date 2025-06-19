@@ -32,6 +32,10 @@
   color: #5D4E72;
 }
 
+.skill img {
+  height: auto;
+}
+
 .works h1, .works a{
   text-decoration: none;
   color: #5D4E72;
@@ -60,7 +64,6 @@
 a:hover .img-wrapper img {
   transform: scale(1.05);
 }
-
 
 @media (min-width: 768px) {
   img {
