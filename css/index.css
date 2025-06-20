@@ -24,8 +24,13 @@
   }
 }
 
-.about_me h1, .about_me p{
+.about_me h1, .about_me h4, .about_me p{
   color: #5D4E72;
+}
+
+.about_me img {
+  width: 20px;
+  height: auto;
 }
 
 .skill h1, .skill p{
